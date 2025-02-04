@@ -1,0 +1,18 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+thead{
+    background-color: lightgreen;
+}
+/* STRUCTURE BASED STYLING */
+tr:nth-child(even){
+    background-color: lightgray;
+}
